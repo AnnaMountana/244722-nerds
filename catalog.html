@@ -14,7 +14,7 @@
           <li><a href="#">Клиенты</a></li>
           <li><a href="#">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
-          <li><a href="#" class="top-nav__basket"><img width="15" height="15" src="img/cart-icon.png">Корзина</a></li>
+          <li><a href="#" class="top-nav__basket">Корзина</a></li>
         </ul>
       </div>
     </nav>
@@ -23,10 +23,10 @@
     </header>
     <main class="main clear">
       <form class="main__left  sidebar" action="#" method="post">
-          <h4>Стоимость</h4>
+          <h4>Стоимость:</h4>
         <div class="slid">
-              <img width="20" height="23" src="img/slider-round.png" class="bul  bul--left"></span>
-              <img width="20" height="23" src="img/slider-round.png" span class="bul  bul--right"></span>
+              <span class="bul  bul--left"></span>
+              <span class="bul  bul--right"></span>
           </div>
           <label class="slid-text">
               От <input type="text" name="ot" placeholder="0">
@@ -35,16 +35,16 @@
               До <input type="text" name="do" placeholder="15 000">
           </label>
           <h4>Сетка</h4>
-          <div><img width="25" height="25" src="img/radio-on.png">Адаптивная</div>
-          <div><img width="25" height="25" src="img/radio-off.png">Фиксированная</div>
-          <div><img width="25" height="25" src="img/radio-off.png">Резиновая</div>
+          <label class="radio"><input type="radio">Адаптивная</label>
+          <label class="radio"><input type="radio">Фиксированная</label>
+          <label class="radio"><input type="radio">Резиновая</label>
           <div class="main__right">
           <h4>Особенности</h4>
-          <div> <img width="27" height="23" src="img/checkbox-on.png">Слайдер</div>
-          <div> <img width="23" height="23" src="img/checkbox-off.png">Блок преимуществ</div>
-          <div> <img width="27" height="23" src="img/checkbox-on.png">Новости</div>
-          <div> <img width="23" height="23" src="img/checkbox-off.png">Галерея</div>
-          <div> <img width="23" height="23" src="img/checkbox-off.png">Корзина</div>
+          <label class="checkbox"><input type="checkbox">Слайдер</label>
+          <label class="checkbox"><input type="checkbox">Блок преимуществ</label>
+          <label class="checkbox"><input type="checkbox">Новости</label>
+          <label class="checkbox"><input type="checkbox">Галерея</label>
+          <label class="checkbox"><input type="checkbox">Корзина</label>
           <button>Показать</button>
         </form>
         <div class="main__right">
@@ -54,8 +54,8 @@
               <a href="#">По цене</a>
               <a href="#">По типу</a>
               <a href="#">По названию</a>
-              <a href=«#»><img width="9" height="9" src="img/arrow.png"></a>
-              <a href=«#»><img width="9" height="9" src="img/arrow.png"></a>
+              <a href=«#» class="arrow arrow--bottom">Вниз</a>
+              <a href=«#» class="arrow arrow--top">Вверх</a>
             </div>
           </div>
           <ul class="catalog">
@@ -86,7 +86,7 @@
               </div>
             </li>
             <li>
-              <div width="360" height="576" class="catalog__header">
+              <div class="catalog__header">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -98,7 +98,6 @@
                 <a href="" class="btn catalog-btn">9900 руб.</a>
               </div>
             </li>
-
             <li>
               <div class="catalog__header">
                 <span></span>
@@ -125,7 +124,6 @@
                   <a href="" class="btn catalog-btn">9900 руб.</a>
                 </div>
                 </li>
-
                 <li>
                   <div class="catalog__header">
                     <span></span>
@@ -150,20 +148,21 @@
         </div>
     </main>
     <section class="map">
-      <div class="main"><img width="1440" height="416" src="img/map.jpg">
-        <div class="map__text"></div>
-        <h4>NЁRDS DESIGN STUDIO</h4>
-        <address>191186, Санкт-Петербург,ул. Б. Конюшенная, д. 19/8</address>
-        <p>тел. +7 (812) 275-75-75</p>
-        <a href="#" class="btn">Напишите нам</a>
+      <div class="main">
+        <div class="map__text">
+          <h4>NЁRDS DESIGN STUDIO</h4>
+          <address>191186, Санкт-Петербург,ул. Б. Конюшенная, д. 19/8</address>
+          <p>тел. +7 (812) 275-75-75</p>
+          <a href="#" class="btn">Напишите нам</a>
+        </div>
       </div>
     </section>
     <footer class="footer">
       <div class="main clear">
         <div class="main__left">
-          <a href="#" class="social"><img width="26" height="15" src="img/vk.png">Вконтакте</a>
-          <a href="#" class="social"><img width="12" height="22" src="img/fb.png">Фейсбук</a>
-          <a href="#" class="social"><img width="21" height="21" src="img/in.png">Инстаграм</a>
+          <a href="#" class="social">Вконтакте</a>
+          <a href="#" class="social">Фейсбук</a>
+          <a href="#" class="social">Инстаграм</a>
         </div>
         <div class="main__left">
           <strong>Давайте дружить, это выгодно!</strong>
